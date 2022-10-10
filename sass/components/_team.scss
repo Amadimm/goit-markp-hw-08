@@ -102,13 +102,13 @@
     flex-wrap: wrap;
     
         &__list {
-            display: column;
+            display: flex;
             flex-wrap: wrap;
             gap: 30px;
         }
 
         &__item {
-            flex-basis: 100%;
+            flex-basis: calc(100%/4);
         }
     }
 }
