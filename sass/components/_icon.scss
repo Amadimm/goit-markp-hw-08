@@ -1,0 +1,31 @@
+.icon{
+
+    
+    &_sned {
+    padding-left: 24px;
+    fill: #FFFFFF;
+}
+&__person {
+    position: absolute;
+    bottom: 20px;
+    left: 15px;
+    transform: translateY(50%);
+    fill: #212121;
+}
+
+&__phone {
+    position: absolute;
+    bottom: 20px;
+    left: 14.27px;
+    transform: translateY(50%);
+    fill: #212121;
+}
+
+&__mail {
+    position: absolute;
+    bottom: 20px;
+    left: 13.5px;
+    transform: translateY(50%);
+    fill: #212121;
+}
+}
