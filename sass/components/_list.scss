@@ -41,23 +41,33 @@
 }
 }
 
-@media screen and (max-width: 767px){
 
-.list {
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: center;
+
+@media screen and (max-width: 767px){
     
-    &__item {
-        margin-left: 15px;
-        margin-right: 15px;
-       justify-content:center ;
-        display: flex;
+    .list {
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        text-align: center;
+        
+        &__item {
+            margin-left: 15px;
+            margin-right: 15px;
+            justify-content:center ;
+            display: flex;
             flex-wrap: wrap;
             justify-content: center;
-       
+            flex-basis: 100%;
+            
+        }
     }
-}
+    svg .loremipsum__icon {
+        width: 100%;
+        background-color: #F5F4FA;
+    }
 }
 
 @media screen and (min-width:768px) and (max-width:1199px) {
@@ -68,7 +78,7 @@
         justify-content: center;
 
         &__item {
-            flex-basis: calc((100% - 15px)/2);
+            flex-basis: calc((100% - 30px)/2);
         }
     }
 }
