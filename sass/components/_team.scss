@@ -81,12 +81,14 @@
     .team {
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
     
         &__list {
             display: flex;
             justify-content: center;
             flex-direction: column;
             gap: 30px;
+            flex-basis: 100%;
         }
 
         &__person {
