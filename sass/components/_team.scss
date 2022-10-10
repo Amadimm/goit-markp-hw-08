@@ -96,7 +96,11 @@
 }
 
 @media screen and (max-width:767px) {
-    .team {
+    .team 
+    {
+    display: flex;
+    flex-wrap: wrap;
+    
         &__list {
             display: column;
             flex-wrap: wrap;
