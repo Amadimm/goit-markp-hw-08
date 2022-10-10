@@ -86,32 +86,40 @@
         &__list {
             display: flex;
             justify-content: center;
-            flex-direction: column;
             gap: 30px;
             flex-basis: 100%;
         }
-
+        
         &__person {
             flex-basis: calc(50% - 30px);
         }
-    
-}
+        
+    }
 }
 
 @media screen and (max-width:767px) {
     .team 
     {
-    display: flex;
-    flex-wrap: wrap;
-    
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        
         &__list {
-            display: flex;
-            flex-wrap: wrap;
+            
+            flex-direction: column;
+            // flex-wrap: wrap;
             gap: 30px;
             flex-basis: 100%;
+            
         }
 
         &__item {
+            display: flex;
+
+            flex-wrap: wrap;
+            flex-basis: 100%;
         }
+
+       
     }
 }
