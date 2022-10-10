@@ -91,7 +91,7 @@
     }
 }
 
-@media screen and (min-width:1200px) {
+@media screen and (max-width:767px) {
     .team {
         &__list {
             display: flex;
@@ -100,7 +100,7 @@
         }
 
         &__item {
-            flex-basis: calc(25% - 30px);
+            flex-basis: 100%;
         }
     }
 }
