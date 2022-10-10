@@ -75,3 +75,32 @@
     margin: 0;
 }
 }
+
+@media screen and (min-width:768px) and (max-width:1199px) {
+    .team {
+        &__list {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+
+        &__person {
+            flex-basis: calc(50% - 15px);
+        }
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .team {
+        &__list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+
+        &__item {
+            flex-basis: calc(25% - 30px);
+        }
+    }
+}
