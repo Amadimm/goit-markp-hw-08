@@ -1,0 +1,26 @@
+:root {
+    --main-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+    --main-color: #2196F3;
+}
+
+body {
+
+    font-family: var(--main-font);
+}
+
+
+header {
+    border-bottom: solid 1px #F5F4FA;
+    width: 100%;
+}
+
+img {
+    display: block;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0
+}
