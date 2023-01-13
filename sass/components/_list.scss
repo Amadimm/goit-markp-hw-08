@@ -1,101 +1,91 @@
-.list {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    padding-top: 94px;
-    margin: 0;
-    // min-width: 320px;
-    // max-width: 1200px;
-    &__item {
-    display: inline-block;
-    width: 100%;
+// .list {
+//     list-style: none;
+//     display: flex;
+//     justify-content: center;
+//     gap: 30px;
+//     padding-top: 94px;
+//     margin: 0;
+//     // min-width: 320px;
+//     // max-width: 1200px;
+//     &__item {
+//     display: inline-block;
+//     width: 100%;
  
     
     
 
-&-h4 {
-    display: flex;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.142;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+// &-h4 {
+//     display: flex;
+//     font-style: normal;
+//     font-weight: 700;
+//     font-size: 14px;
+//     line-height: 1.142;
+//     letter-spacing: 0.03em;
+//     text-transform: uppercase;
     
-    color: #212121;
-}
+//     color: #212121;
+// }
 
-&-p {
-    display: flex;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.714;
+// &-p {
+//     display: flex;
+//     font-style: normal;
+//     font-weight: 400;
+//     font-size: 14px;
+//     line-height: 1.714;
     
     
-    letter-spacing: 0.03em;
+//     letter-spacing: 0.03em;
     
-    color: #757575;
-}
-}
-}
+//     color: #757575;
+// }
+// }
+// }
 
-
-
-@media screen and (max-width: 767px){
-    
-    .list {
-        display:flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        text-align: center;
-        width: 100%;
-        text-align: center;
-        
-        &__item {
-            margin-left: 15px;
-            margin-right: 15px;
-            justify-content:center ;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            flex-basis: 100%;
-            text-align: center;
-
-            &-p {
-                text-align: center;
-            }
-            
-            
-        }
-    }
-    .loremipsum__icon {
-        width: 100%;
-        background-color: #F5F4FA;
-    }
-}
-
-@media screen and (min-width:768px) and (max-width:1199px) {
-    .list {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 30px;
-        justify-content: center;
-
-        &__item {
-            flex-basis: calc((100% - 30px)/2);
-        }
-    }
-}
 
 @media screen and (min-width:1200px) {
-    .unit {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 30px;
-
-       
     
+.list {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        padding-top: 94px;
+        margin: 0;
+
+        // min-width: 320px;
+        // max-width: 1200px;
+        &__item {
+            display: inline-block;
+            width: 100%;
+
+
+
+
+            &-h4 {
+                display: flex;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 1.142;
+                letter-spacing: 0.03em;
+                text-transform: uppercase;
+
+                color: #212121;
+            }
+
+            &-p {
+                display: flex;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 1.714;
+
+
+                letter-spacing: 0.03em;
+
+                color: #757575;
+            }
+        }
     }
+
 }
