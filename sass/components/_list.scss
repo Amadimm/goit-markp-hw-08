@@ -3,15 +3,18 @@
     display: flex;
     justify-content: center;
     gap: 30px;
-    padding-top: 94px;
+    padding-top: 60px;
     margin: 0;
     // min-width: 320px;
     // max-width: 1200px;
+   flex-wrap: wrap;
+   
+   
     &__item {
     // display: inline-block;
     width: 100%;
  
-    flex-wrap: wrap;
+
     
     
 
@@ -23,6 +26,7 @@
     line-height: 1.142;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    justify-content: center;
     
     color: #212121;
 }
@@ -42,6 +46,16 @@
 }
 }
 
+.loremipsum {
+   display: flex;
+   justify-content: center;
+    background-size: auto;
+
+    &__icon {
+
+        width: 100%;
+    }
+}
 
 @media screen and (min-width:1200px) {
     
@@ -52,7 +66,7 @@
         gap: 30px;
         padding-top: 94px;
         margin: 0;
-
+flex-wrap: nowrap;
         // min-width: 320px;
         // max-width: 1200px;
         &__item {
