@@ -1,53 +1,53 @@
-// .background {
+.background {
 
-//     display: flex;
-//     justify-content: center;
+    display: flex;
+    justify-content: center;
 
 
     
-//     &__section {
-//         background: #2F303A;
+    &__section {
+        background: #2F303A;
         
-//         width: 100%;
-//         // height: 600px;
-//         display: flex;
-//         flex-direction: column;
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
         
-//         // max-width: 1600px;
-//         justify-content: center;
-//         align-items: center;
-//         background-position: center;
-//         background-repeat: no-repeat;
-//         background-size: auto auto;
-//         background-image: linear-gradient(to bottom, #2f303a66 0%, #2f303a66 100%),
-//         url("../images/backgrond.jpg");
+        // max-width: 1600px;
+        justify-content: center;
+        align-items: center;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: linear-gradient(to bottom, #2f303a66 0%, #2f303a66 100%),
+        url("../images/backgrond.jpg");
         
-//     }
+    }
     
     
     
     
-//     &__h1 {
+    &__h1 {
         
-//         width: 696px;
+        width: 480px;
         
         
-//         font-style: normal;
-//         font-weight: 900;
-//         font-size: 44px;
-//         line-height: 1.363;
-//         /* or 136% */
+        font-style: normal;
+        font-weight: 900;
+        font-size: 26px;
+        line-height: 1.363;
+        /* or 136% */
         
-//         text-align: center;
-//         letter-spacing: 0.06em;
-//         text-transform: uppercase;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
         
-//         color: #FFFFFF;
-//         margin: 0 auto;
+        color: #FFFFFF;
+        margin: 0 auto;
         
-//         padding-bottom: 30px;
-//     }
-// }
+        padding-bottom: 30px;
+    }
+}
 
 @media  screen and (min-width:1200px ) {
 
