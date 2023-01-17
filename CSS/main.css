@@ -912,6 +912,7 @@ ol {
   padding: 0px;
   justify-content: center;
   display: flex;
+  flex-direction: column;
 }
 .address__p {
   display: flex;
@@ -1478,14 +1479,15 @@ img {
 }
 
 .footer2 {
-  padding-left: 70px;
-  display: inline-block;
+  display: flex;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
+  align-items: center;
+  flex-direction: column;
 }
 
 .footer3 {
