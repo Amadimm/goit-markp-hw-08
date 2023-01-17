@@ -1546,18 +1546,19 @@ img {
   }
 }
 .footer {
-  display: column;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   background: #2F303A;
   padding-top: 60px;
   padding-bottom: 60px;
-  width: 1600px;
   width: 100%;
 }
 .footer__secondary {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  flex-direction: column;
 }
 .footer__h3 {
   margin: 0;
