@@ -1,0 +1,40 @@
+.menu-conainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100%;
+    padding: 48px 40px;
+    background-color: #fff;
+    z-index: 999;
+    transform: translateX(100%);
+    transition: transform 250ms ease-in-out;
+    display: none;
+}
+
+
+.menu-conainer.is-open {
+    transform: translateX(0);
+    display: block;
+}
+
+.menu-toggle {
+    min-height: 40px;
+    min-width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+    margin-left: auto;
+
+}
+
+.menu-toggle:hover, .menu-toggle:focus {
+    color: var(--main-color);
+}
