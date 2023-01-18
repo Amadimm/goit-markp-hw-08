@@ -1109,6 +1109,7 @@ ol {
   .newsletter__form {
     display: flex;
     align-items: center;
+    flex-direction: row;
   }
   .newsletter__input {
     width: 358px;
@@ -1697,6 +1698,7 @@ img {
     display: flex;
     align-items: baseline;
     flex-wrap: nowrap;
+    flex-direction: row;
   }
   .footer__h3 {
     margin: 0;
