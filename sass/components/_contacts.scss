@@ -27,7 +27,7 @@
             color: var(--main-color);
             fill: var(--main-color);
         }
-        display: none;
+        // display: none;
     }
     
     
@@ -83,7 +83,6 @@
     
     
     
-    
             &__icon {
     
                 align-items: center;
@@ -133,5 +132,6 @@
                     fill: var(--main-color);
                 }
             }
+        
         }
-}
+    }
