@@ -321,6 +321,9 @@ ol {
     padding-top: 20px;
   }
 }
+.contacts {
+  display: none;
+}
 .contacts__icon {
   align-items: center;
   margin-right: 10px;
