@@ -1033,6 +1033,8 @@ ol {
 @media screen and (min-width: 1200px) {
   .address {
     margin: 0;
+    display: flex;
+    align-items: flex-start;
   }
   .address .address__list {
     list-style: none;
@@ -1716,6 +1718,7 @@ img {
   .footer__logo-secondary {
     display: flex;
     color: #FFFFFF;
+    justify-content: flex-start;
     margin: 0;
     margin-bottom: 20px;
   }
