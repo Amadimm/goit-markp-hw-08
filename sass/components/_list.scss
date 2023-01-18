@@ -57,6 +57,71 @@
     }
 }
 
+@media screen and (min-width: 768px) {
+
+.list {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        padding-top: 60px;
+        margin: 0;
+        // min-width: 320px;
+        // max-width: 1200px;
+        flex-wrap: wrap;
+        
+
+
+        &__item {
+            // display: inline-block;
+            width: 354px;
+
+
+
+
+
+            &-h4 {
+                display: flex;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 1.142;
+                letter-spacing: 0.03em;
+                text-transform: uppercase;
+                justify-content: center;
+
+                color: #212121;
+            }
+
+            &-p {
+                display: flex;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 1.714;
+
+
+                letter-spacing: 0.03em;
+
+                color: #757575;
+            }
+        }
+    }
+
+    .loremipsum {
+        display: flex;
+        justify-content: center;
+        background-size: auto;
+
+        &__icon {
+
+            width: 100%;
+        }
+    }
+
+
+}
+
 @media screen and (min-width:1200px) {
     
 .list {
