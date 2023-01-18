@@ -38,3 +38,11 @@
 .menu-toggle:hover, .menu-toggle:focus {
     color: var(--main-color);
 }
+
+
+ @media screen and (min-width: 1200px) {
+    .menu-toggle {
+        display: none;
+    } 
+
+ }
