@@ -1000,9 +1000,6 @@ ol {
   margin: 0;
   padding-bottom: 9px;
 }
-.address__item {
-  padding-bottom: 9px;
-}
 .address__link {
   font-style: normal;
   font-weight: 400;
@@ -1067,9 +1064,11 @@ ol {
   display: flex;
   align-items: center;
   flex-direction: column;
+  gap: 20px;
+  width: 100%;
 }
 .newsletter__input {
-  width: 100%;
+  width: auto;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -1079,7 +1078,7 @@ ol {
   line-height: 1.25;
   color: rgba(255, 255, 255, 0.6);
   padding: 15px 16px;
-  margin-right: 12px;
+  margin: auto;
 }
 
 @media screen and (min-width: 1200px) {
@@ -1559,6 +1558,7 @@ img {
   justify-content: center;
   flex-wrap: wrap;
   flex-direction: column;
+  gap: 60px;
 }
 .footer__h3 {
   margin: 0;
