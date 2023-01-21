@@ -27,7 +27,6 @@ ol {
   width: 100%;
   padding: 0 15px;
   margin: 0 auto;
-  max-width: 1200px;
 }
 
 @media screen and (min-width: 480px) {
@@ -37,15 +36,12 @@ ol {
 }
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 768px;
-    width: 100%;
-    margin: auto;
+    width: 768px;
   }
 }
 @media screen and (min-width: 1200px) {
   .container {
     width: 1200px;
-    max-width: 1200px;
   }
 }
 .section {
@@ -1860,19 +1856,19 @@ ol {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;
+  width: 100%;
   height: 100%;
-  padding: 48px 40px;
+  padding: 20px 20px;
   background-color: #fff;
   z-index: 999;
   transform: translateX(100%);
   transition: transform 250ms ease-in-out;
-  padding-top: 21px;
 }
 
 .is-open {
   transform: translateX(0);
-  display: block;
+  display: flex;
+  flex-direction: column;
 }
 
 .menu-toggle {
@@ -1915,7 +1911,7 @@ ol {
 }
 
 .menu-contacts {
-  padding-top: 301px;
+  margin-top: auto;
   gap: 32px;
   display: flex;
   flex-direction: column;
@@ -1955,6 +1951,11 @@ ol {
 }
 @media screen and (min-width: 1200px) {
   .menu-toggle {
+    display: none;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .section {
     display: none;
   }
 }
