@@ -19,7 +19,7 @@
     list-style: none;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    // gap: 30px;
     padding-bottom: 94px;
     flex-wrap: wrap;
 }
@@ -31,9 +31,10 @@
     border-radius: 4px;
     width: 170px;
     height: 92px;
-    margin: auto;
+    // margin: auto;
     padding-top: 30px;
-
+margin-right: 30px;
+margin-bottom: 30px;
     
     &__a {
     border: 1px solid #afb1b8;
