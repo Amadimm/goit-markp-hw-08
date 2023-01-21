@@ -2,28 +2,31 @@
     width: 100%;
     padding: 0 15px;
     margin: 0 auto;
-    max-width: 1200px;
+    // max-width: 1200px;
 
 }
     @media screen and (min-width: 480px) {
-        .container {
-        width: 480px;
-    }
+.container {
+
+    width: 480px;
+}
+    
     }
 
     @media screen and (min-width: 768px) {
         .container {
-        max-width: 768px;
-        width: 100%;
-        margin: auto;
+
+            width: 768px;
         }
+    
+    
     }
 
     @media screen and (min-width: 1200px) {
-        .container {
-        width: 1200px;
-        max-width: 1200px;
-        }
+.container {
+
+    width: 1200px;
+}
     }
 
 .section {
