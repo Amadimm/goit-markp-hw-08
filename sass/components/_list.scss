@@ -49,7 +49,12 @@
 .loremipsum {
    display: flex;
    justify-content: center;
-    background-size: auto;
+    // background-size: auto;
+    width: 100%;
+    height: 120px;
+    align-items: center;
+    background-color: #F5F4FA;
+    border-radius: 4px;
 
     &__icon {
 
