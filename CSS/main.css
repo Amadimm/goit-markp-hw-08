@@ -760,7 +760,6 @@ ol {
     padding-top: 94px;
   }
   .team__item {
-    height: 428px;
     background: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
@@ -820,7 +819,6 @@ ol {
     padding-top: 94px;
   }
   .team__item {
-    height: 428px;
     background: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
@@ -1170,8 +1168,6 @@ ol {
 @media screen and (min-width: 1200px) {
   .img {
     display: block;
-    width: 370px;
-    height: 294px;
   }
   .img__list {
     display: flex;
@@ -1486,7 +1482,7 @@ ol {
 .client__a {
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  width: 226px;
+  width: 210px;
   height: 92px;
   display: flex;
   align-items: center;
@@ -1507,6 +1503,11 @@ ol {
   fill: #2196F3;
 }
 
+@media screen and (min-width: 768px) {
+  .client__a {
+    width: 226px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .clients__header {
     font-style: normal;
@@ -1574,7 +1575,6 @@ ol {
   display: flex;
   justify-content: center;
   gap: 30px;
-  padding-bottom: 94px;
   margin: 0;
   flex-wrap: wrap;
 }
@@ -1625,7 +1625,6 @@ ol {
     display: flex;
     justify-content: center;
     gap: 30px;
-    padding-bottom: 94px;
     margin: 0;
     flex-wrap: nowrap;
   }
@@ -1706,6 +1705,10 @@ ol {
   width: 100%;
 }
 
+.listsection {
+  padding-bottom: 60px;
+}
+
 @media screen and (min-width: 768px) {
   .list {
     list-style: none;
@@ -1747,6 +1750,9 @@ ol {
   .loremipsum__icon {
     width: 100%;
   }
+  .listsection {
+    padding-bottom: 60px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .list {
@@ -1780,6 +1786,9 @@ ol {
     line-height: 1.714;
     letter-spacing: 0.03em;
     color: #757575;
+  }
+  .listsection {
+    padding-bottom: 0;
   }
 }
 .icon_sned {
@@ -2222,7 +2231,6 @@ img {
     margin-bottom: 20px;
   }
   .footer2 {
-    padding-left: 70px;
     display: inline-block;
     font-weight: 700;
     font-size: 14px;
