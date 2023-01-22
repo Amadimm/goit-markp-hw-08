@@ -46,6 +46,7 @@
         margin: 0 auto;
         
         padding-bottom: 30px;
+        max-width: 365px;
     }
 }
 
@@ -82,7 +83,7 @@
     
             &__h1 {
     
-                width: 696px;
+                max-width: 696px;
     
     
                 font-style: normal;
