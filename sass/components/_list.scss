@@ -62,6 +62,10 @@
     }
 }
 
+.listsection {
+    padding-bottom: 60px;
+}
+
 @media screen and (min-width: 768px) {
 
 .list {
@@ -125,7 +129,12 @@
     }
 
 
+    .listsection {
+        padding-bottom: 60px;
+    }
 }
+
+
 
 @media screen and (min-width:1200px) {
     
@@ -172,5 +181,9 @@ flex-wrap: nowrap;
             }
         }
     }
+
+        .listsection {
+            padding-bottom: 0;
+        }
 
 }
