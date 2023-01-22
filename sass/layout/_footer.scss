@@ -109,10 +109,11 @@ flex-direction: column;
         &__secondary {
             display: flex;
             // align-items: baseline;
-            justify-content: center;
+            justify-content: space-around;
             flex-wrap: wrap;
             flex-direction: row;
             gap: 60px;
+            align-items: baseline;
         }
 
 
