@@ -42,7 +42,7 @@
     &__a {
     border: 1px solid #afb1b8;
     border-radius: 4px;
-    width: 226px;
+    width: 210px;
     height: 92px;
     display: flex;
     align-items: center;
@@ -74,6 +74,15 @@
     }
         
 }
+
+
+@media screen and (min-width:768px) {
+
+    .client__a {
+        width: 226px;
+    }
+}
+
 
 
 @media screen and (min-width:1200px){
